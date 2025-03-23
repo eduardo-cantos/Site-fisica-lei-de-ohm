@@ -26,6 +26,7 @@ body{
         color: black;
         margin-left: 10px;
         font-size: 20px;
+        text-align: justify;
     }
     h3{
         color: black;
@@ -38,6 +39,15 @@ body{
     }
     .divcorrente{
         width: 550px; /* Define o tamanho da imagem à esquerda */
+        display: flex;
+    }
+    .formulatensao{
+        width: 150px; /* Define o tamanho da imagem à esquerda */
+        height: 100px; /* Mantém proporção */
+        margin-left: 15px;
+    }
+    .divtensao{
+        width: 1000px; /* Define o tamanho da imagem à esquerda */
         display: flex;
     }
     .botaovoltar{
