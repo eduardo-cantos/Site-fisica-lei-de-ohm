@@ -22,6 +22,14 @@ body{
         border-top: 2px solid black; /* Adiciona uma linha preta */
         
     }
+    p{
+        font-size: 20px;
+    }
+    .resolucao1{
+        width: 350px; /* Define o tamanho da imagem à esquerda */
+        height: auto; /* Mantém proporção */
+        margin-left: 15px;
+    }
     .botaovoltar{
         display: flex;
         color: #163347;
