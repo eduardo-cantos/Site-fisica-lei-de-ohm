@@ -40,6 +40,9 @@ body{
         display: block;
         margin-top: 100px;
     }
+    ol{
+        margin-left: 40px;
+    }
     
 
     .imagemintroducao {
@@ -69,6 +72,13 @@ body{
         border: none;     /* Remove o estilo padrão do navegador */
         border-top: 2px solid black; /* Adiciona uma linha preta */
         
+    }
+    .rodape{
+        margin-bottom: 15px;
+        color: black;
+        text-decoration: overline;
+        margin-left: 300px;
+        margin-top: 50px;
     }
     .ohm:hover::after{
         content: ' Ω ';
