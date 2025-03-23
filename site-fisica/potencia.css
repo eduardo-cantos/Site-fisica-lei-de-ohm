@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6688A0;
+    h1{
+        color: #163347;
+        text-align: center;
+        border-width: 4px;
+        border-style:groove;
+        border-radius: 10px;
+        border-color: #A0B7F4;
+        outline: 0.1cm solid black;
+        height: 45px;
+        width: 380px;
+        margin: 0% auto;
+        margin-top: 40px;
+        padding-top: 5px;   
+    }
+    hr{ 
+        margin-top: 30px; /* Espaçamento acima do <hr> */
+        margin-bottom: 30px;
+        border: none;     /* Remove o estilo padrão do navegador */
+        border-top: 2px solid black; /* Adiciona uma linha preta */
+        
+    }
+    .botaovoltar{
+        display: flex;
+        color: #163347;
+        text-align: center;
+        border-width: 4px;
+        border-style:groove;
+        border-radius: 10px;
+        border-color: #A0B7F4;
+        outline: 0.1cm solid black;
+        height: 35px;
+        width: 170px;
+        margin: 0% auto;
+        margin-top: 40px;
+        padding-top: 5px;
+    }
+    .potencia:hover::after{
+        content: ' W ';
+        text-decoration: dashed;
+        font-weight: normal; 
+        color: black;
+        text-decoration: none; 
+        }
+    .potencia:hover::before{
+        content: ' W ';
+        text-decoration: dashed;
+        font-weight: normal; 
+        color: black;
+        text-decoration: none; 
+        }
+     .potencia:hover{
+            color: black;
+        }
+}
