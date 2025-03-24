@@ -22,6 +22,25 @@ body{
         border-top: 2px solid black; /* Adiciona uma linha preta */
         
     }
+    .formulapotencia{
+        width: 150px; /* Define o tamanho da imagem à esquerda */
+        height: auto; /* Mantém proporção */
+        margin-left: 30px;
+    }
+    .formulapotencia2{
+        width: 150px; /* Define o tamanho da imagem à esquerda */
+        height: auto; /* Mantém proporção */
+        margin-left: 30px; 
+    }
+
+.divpotencia{
+    width: 1400px; /* Define o tamanho da imagem à esquerda */
+    display: flex;
+    gap: 20px;
+}
+.divpotencia > p{
+    font-size: 20px;
+}
     .botaovoltar{
         display: flex;
         color: #163347;
