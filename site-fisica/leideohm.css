@@ -24,6 +24,7 @@ body{
     }
     p{
         font-size: 20px;
+        text-align: justify;
     }
     .resolucao1{
         width: 350px; /* Define o tamanho da imagem à esquerda */

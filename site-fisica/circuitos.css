@@ -13,7 +13,7 @@ body{
         width: 450px;
         margin: 0% auto;
         margin-top: 40px;
-        padding-top: 5px;   
+        padding-top: 5px;  
     }
     hr{ 
         margin-top: 30px; /* Espaçamento acima do <hr> */
@@ -21,6 +21,9 @@ body{
         border: none;     /* Remove o estilo padrão do navegador */
         border-top: 2px solid black; /* Adiciona uma linha preta */
         
+    }
+    p{
+        text-align: justify;
     }
     .botaovoltar{
         display: flex;
